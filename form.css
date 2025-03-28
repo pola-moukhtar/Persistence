@@ -1,0 +1,99 @@
+.form{
+    background-color: white;
+    border: 2px solid black;
+    height: 150px;
+    border-radius: 20px ;;
+  }
+
+a{
+    color: black;
+}
+  input[type=text],input[type=email],input[type=password]
+  {
+    border-radius: 10px ;
+    background-color: rgb(211, 209, 209);
+    color: black;
+  }
+  
+  input[type=text]:hover
+  {
+    background-color: rgb(255, 255, 255);
+  
+  }
+  input[type=email]:hover{
+    background-color: rgb(181, 222, 207);
+    
+  }
+  input[type=password]:hover{
+   
+    background-color: rgb(255, 255, 255);
+  }
+
+  button[type=submit]:hover
+  {
+    background-color: rgb(88, 88, 88);
+  }
+  #sub{
+    /* display: flex; */
+    /* justify-content: center; */
+        padding-left: 150px;
+        /* margin: 60px; */
+        box-sizing: border-box;
+  }
+
+
+  body{
+    background-color:rgb(205, 205, 205);
+    /* padding: 0px;  */
+       margin:0px;    
+}
+/**************************************************************************************/
+ #headcon{
+    height: auto;
+    background-color: rgb(103, 98, 98);
+     /* display: inline-block; */
+     display: flex;flex-wrap: wrap;
+     align-items: baseline;
+ }
+ #logo{
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 50px ;
+    font-family: Georgia, serif;
+ }
+ #shar{
+    font-size: 30px ;
+}
+
+#ww{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+#si{
+    display: flex;
+    justify-content: center;
+}
+#rr{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center; 
+}.caa{
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  text-decoration-line: none;
+  font-size: 20px;
+  color:brown;
+}
+.billii{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.caa:hover{
+  background-color: grey;
+}
